@@ -16,3 +16,46 @@ document.write (password)
 
 document.querySelector ("h1").innerText = "Ciao Brutti"
 document.getElementById ("paragrafo").innerHTML = "buon natale"
+
+// prove condizioni e cicli
+
+// condizioni
+
+if (5 <= 10) {
+    console.log ("ciao")
+}
+
+if (10%2 == 0 && 2 < 10) {
+    console.log ("pasqua")
+}
+
+if (70 < 200 || 1 < 0) {
+    console.log ("natale")
+}
+
+if (1 < 2) {
+    console.log ("ciao")
+}
+else {
+    console.log ("buongiorno")
+}
+
+40 < 30 ? console.log ("miao") : console.log ("addio")
+
+// cicli 
+
+let contatore = 0;
+while (contatore < 10) {
+    console.log ("arrivederci")
+    contatore++;
+}
+
+let misuratore = 0;
+do {
+    console.log ("baubau")
+    misuratore++;
+} while (misuratore < 10);  //almeno 1 volta
+
+for(let i = 0; i < 10; i++) {
+    console.log ("madonna")
+}
