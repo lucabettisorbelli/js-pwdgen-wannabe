@@ -10,3 +10,9 @@ let data = 2023;
 let password = nomeUtente + cognomeUtente + colorePreferito + data;
 
 document.write (password)
+
+
+// modifica elementi in js
+
+document.querySelector ("h1").innerText = "Ciao Brutti"
+document.getElementById ("paragrafo").innerHTML = "buon natale"
